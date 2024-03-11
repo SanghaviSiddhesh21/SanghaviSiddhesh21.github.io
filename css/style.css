@@ -1,0 +1,239 @@
+body{
+    background-color: #f8f8f8;
+}
+/*Start Navbar Section*/
+.header_area{
+    padding-top: 2px;
+    font-family: "Noto Sans JP", sans-serif;
+    /* border: 2px solid black; */
+}
+.navbar_heading{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.navbar_tabs{
+    font-family: "Noto Sans JP", sans-serif;
+}
+.navbar_tabs:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-weight: 490;
+}
+/*End Navbar Section*/
+/*Start Banner Area*/
+.banner_area{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    /* border: 2px solid black; */
+}
+.banner_main_0{
+    margin-bottom: 4%;
+    font-family: "Noto Sans JP", sans-serif;
+}
+.banner_main_1{
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 170px;
+    font-weight: bold;
+    line-height: 82px;
+}
+.banner_main_2{
+    font-family: "Londrina Shadow", sans-serif;
+    font-size: 150px;
+}
+/*End Banner Area*/
+/*Start About Me Area*/
+.about_me_area{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    /* border: 2px solid black; */
+}
+/* .about_me_area .container .row .col{
+    border: 2px solid black;
+} */
+.about_me_title{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about_me_img{
+    height: 500px;
+}
+/*End About Me Area*/
+/* Start Technology Area*/
+.technology_area{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.technology_area_title{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 80px;
+    margin-left: 2%;
+}
+
+.single-brand{
+    /* border: 1px solid var(--border-color); */
+    text-align: center;
+    padding: 1rem 0rem;
+    margin: 0rem 0rem;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+.single-brand>img{
+    width: 50%;
+}
+.single-brand:hover{
+    /* box-shadow: var(--box-shadow); */
+    transform: scale(1.2);
+}
+/* .single-brand:hover>img{
+    filter: brightness(0.15);
+} */
+/* End Technology Area*/
+/*Start Project Area*/
+.projects_area{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.projects_area_title{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.margin-center{
+    margin: 0 auto;
+}
+.project_carousel_button{
+    color: black;
+}
+.card{
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+.card-title{
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+}
+.card-subtitle{
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.project_github_link{
+    color: black;
+}
+.project_github_link:hover{
+   color: #0d6efd;
+}
+.carousel-control-prev{
+    width: 10%;
+}
+/*End Project Area*/
+/*Start domain Area*/
+.domain_area{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.domain_area_title{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-left: 2%;
+}
+.domain_area_content{
+    margin-left: 2%;
+}
+.card-col{
+    padding: 0;
+    margin-top: 1%;
+    transition: transform 0.4s ease;
+}
+.domain_img{
+    height: 350px;
+}
+.card_col_1{
+    margin-right: 10px;
+}
+.card-col:hover{
+    transform: scale(1.04);
+}
+.domain-title{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: normal;
+}
+/*End domain Area*/
+/*Start Contact Area*/
+.contact_area{
+    margin-top: 9%;
+    margin-bottom: 7%;
+}
+.contact_area_header_section{
+    margin-bottom: 40px;
+}
+.contact_area_title{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    margin-left: 2%;
+    display: inline;
+}
+.contact_area_subtitle{
+    font-family: "Noto Sans JP", sans-serif;
+    margin-left: 2%;
+}
+.contact_text{
+    border: none;
+    background-color: #f8f8f8; 
+    border-bottom: solid 1px #000;
+    width: 100%;
+}
+.contact_text:focus{
+    border: 0;
+    border-bottom: solid 1px #000;
+    outline: none;
+    background-color: #f8f8f8; 
+}
+.contact_area_body{
+    font-family: "Noto Sans JP", sans-serif;
+    margin-left: 2%;
+    margin-top: 80px;
+}
+.contact_area_body>.row{
+    margin-bottom: 5%;
+}
+.contact_col{
+    margin: 0px;
+    padding: 0;
+}
+.contact_col_specific{
+    margin-right: 50px;
+    margin-left: 4px;
+    padding: 0;
+}
+.contact_button{
+    border: 2px solid black;
+    background-color: black;
+    color: #f8f8f8;
+    font-family: "Noto Sans JP", sans-serif;
+}
+.contact_button:hover{
+    border: 2px solid black;
+    background-color: #f8f8f8;
+    color: black;
+}
+/*End Contact Area*/
+/*Start Footer Area*/
+.footer_area{
+    margin-top: 7%;
+}
+.social a{
+    color: black;
+    margin: 0 10px;
+}
+.social a:hover{
+    color: #0d6efd;
+}
+
+/*End Footer Area*/
