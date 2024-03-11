@@ -11,9 +11,9 @@ $(document).ready(function(){
               items:1,
               nav:true
           },
-          600:{
+          400:{
               items:1,
-              nav:false
+              nav:true
           },
           1000:{
               items:4,
