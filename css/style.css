@@ -29,6 +29,7 @@ body{
 }
 .banner_main_0{
     margin-bottom: 4%;
+    font-size: 20px;
     font-family: "Noto Sans JP", sans-serif;
 }
 .banner_main_1{
@@ -62,8 +63,8 @@ body{
 /*End About Me Area*/
 /* Start Technology Area*/
 .technology_area{
-    margin-top: 7%;
-    margin-bottom: 7%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 .technology_area_title{
     font-family: "Alumni Sans", sans-serif;
@@ -71,13 +72,16 @@ body{
     margin-bottom: 80px;
     margin-left: 2%;
 }
+/* .col_tech_custom{
+    width: auto;
+} */
 
 .single-brand{
     /* border: 1px solid var(--border-color); */
     text-align: center;
     padding: 1rem 0rem;
     margin: 0rem 0rem;
-    width: 100px;
+    width: auto;
     height: auto;
     cursor: pointer;
     transition: transform 0.4s ease;
@@ -95,8 +99,8 @@ body{
 /* End Technology Area*/
 /*Start Project Area*/
 .projects_area{
-    margin-top: 7%;
-    margin-bottom: 7%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 .projects_area_title{
     font-family: "Alumni Sans", sans-serif;
@@ -106,11 +110,9 @@ body{
 .margin-center{
     margin: 0 auto;
 }
-.project_carousel_button{
-    color: black;
-}
 .card{
     box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    width: 18rem;
 }
 .card-title{
     font-family: "Alumni Sans", sans-serif;
@@ -134,8 +136,8 @@ body{
 /*End Project Area*/
 /*Start domain Area*/
 .domain_area{
-    margin-top: 7%;
-    margin-bottom: 7%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 .domain_area_title{
     font-family: "Alumni Sans", sans-serif;
@@ -167,8 +169,8 @@ body{
 /*End domain Area*/
 /*Start Contact Area*/
 .contact_area{
-    margin-top: 9%;
-    margin-bottom: 7%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 .contact_area_header_section{
     margin-bottom: 40px;
@@ -188,6 +190,7 @@ body{
     background-color: #f8f8f8; 
     border-bottom: solid 1px #000;
     width: 100%;
+    padding-left: 0;
 }
 .contact_text:focus{
     border: 0;
@@ -202,6 +205,7 @@ body{
 }
 .contact_area_body>.row{
     margin-bottom: 5%;
+    width: 50%;
 }
 .contact_col{
     margin: 0px;
@@ -224,9 +228,11 @@ body{
     color: black;
 }
 /*End Contact Area*/
+
+
 /*Start Footer Area*/
 .footer_area{
-    margin-top: 7%;
+    padding-top: 7%;
 }
 .social a{
     color: black;
@@ -235,5 +241,144 @@ body{
 .social a:hover{
     color: #0d6efd;
 }
-
 /*End Footer Area*/
+@media screen and (max-width: 724px) {
+    /*Start Navbar Section*/
+    .header_button{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /*End Navbar Section*/
+    /*Start Banner Section*/
+    .banner_area{
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .banner_main_0{
+        margin-bottom: 2%;
+        font-size: 15px;
+    }
+    .banner_main_1{
+        font-size: 85px;
+        line-height: 70px;
+    }
+    .banner_main_2{
+        font-size: 75px;
+        line-height: 70px;
+    }
+    /*End Banner Section*/
+    /*Start About Me Area*/
+    .about_me_area{
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .about_me_title{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .about_me_img{
+        height: 300px;
+    }
+    .about_me_content{
+        font-size: 15px;
+    }
+    /*End About Me Area*/
+    /*Start Technology Area*/
+    .technology_area{
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .technology_area_title{
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .single-brand>img{
+        width: 50%;
+    }
+    .row{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    /*End Technology Area*/
+    /*Start Project Area*/
+    .projects_area{
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .projects_area_title{
+        margin-bottom: 40px;
+    }
+    .card-title{
+        font-size: 25px;
+    }
+    .card{
+        width: 18rem;
+        margin-bottom: 20px;
+    }
+    .card-subtitle{
+        font-size: 21px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+    /*Start Domain Area*/
+    .domain_area{
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .domain_img{
+        margin-top: 25px;
+        height: 300px;
+    }
+    /*End Domain Area*/
+    /*Start Contact Area*/
+    .contact_area{
+        padding-top: 12%;
+        padding-bottom: 12%;
+
+    }
+    .contact_area_title{
+        margin-left: 0;
+    }
+    .contact_area_header_section{
+        margin-bottom: 40px;
+    }
+    .contact_area_body{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .contact_area_body>.row{
+        width: 100%;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .contact_button{
+        margin-top: 10px;
+        margin-left: 45%;
+    }
+
+    /*End Contact Area*/
+    /*Start Footer Section*/
+    .footer_area{
+        padding-top: 12%;
+    }
+    /*End Footer Section*/
+
+}
+
+@media screen and (max-width: 500px){
+    .single-brand>img{
+        width: 50%;
+    }
+    .single-brand{
+        width: 75px;
+    }
+    .row>*{
+        width: auto;
+    }
+    .small_screen_domain{
+        width: 90%;
+    }
+}

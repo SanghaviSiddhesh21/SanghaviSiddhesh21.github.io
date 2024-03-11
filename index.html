@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="./css/all.min.css">
         <!--Bootstrap Icon-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!--Owl Carousel-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!--Google Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +28,7 @@
             <nav class="navbar navbar-expand-lg navbar_custom">
                 <div class="container">
                   <a class="navbar-brand navbar_heading" href="#">Siddhesh.Portfolio</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler header_button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
@@ -51,7 +54,7 @@
         <!-- Start Banner Section -->
         <section class="banner_area">
             <div class="container">
-                <p class="text-lowercase text-center fs-5 banner_main_0"><span class="fs-3">&#x1F44B;</span>, my name is siddhesh.<br></p>
+                <p class="text-lowercase text-center banner_main_0"><span class="fs-3">&#x1F44B;</span>, my name is siddhesh.<br></p>
                 <p class="text-center banner_main_1 my-0">Developer</p>
                 <p class="text-center banner_main_2 my-0">& Data Scientist</p>
             </div>
@@ -61,13 +64,13 @@
         <section class="about_me_area">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-6 col-md-12 col-md-12">
                         <img src="./img/v872batch9-nunny-10a.jpg" class="about_me_img mx-auto d-block">
                     </div>
-                    <div class="col text-center my-auto">
+                    <div class="col-lg-6 col-md-12 col-md-12 text-center my-auto">
                         <h3 class="display-4 about_me_title">About Me</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Nesciunt ipsum eum perferendis dolore <br> laboriosam omnis at rem repudiandae provident optio?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Nesciunt ipsum eum perferendis dolore <br> laboriosam omnis at rem repudiandae provident optio?</p>
+                        <p class="about_me_content">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Nesciunt ipsum eum perferendis dolore <br> laboriosam omnis at rem repudiandae provident optio?</p>
+                        <p class="about_me_content">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Nesciunt ipsum eum perferendis dolore <br> laboriosam omnis at rem repudiandae provident optio?</p>
                     </div>
                 </div>
             </div>
@@ -77,68 +80,68 @@
         <section class="technology_area">
             <div class="container">
                 <h3 class="display-4 technology_area_title">Technology</h3>
-                <div class="first-row row">
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                <div class="row">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/html.svg" alt="Brand1">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/css.svg" alt="Brand2">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/bootstrap.svg" alt="Brand3">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/javascript.svg" alt="Brand4">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/vue.svg" alt="Brand5">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/postgresql.svg" alt="Brand6">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/sqlite.svg" alt="Brand7">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/python.svg" alt="Brand8">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/numpy.svg" alt="Brand9">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/pandas.svg" alt="Brand9">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/scikit-learn.svg" alt="Brand9">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/flask.svg" alt="Brand9">
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-6 col-sm-6">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col_tech_custom">
                         <div class="single-brand">
                             <img src="img/technology_icon/linux.svg" alt="Brand9">
                         </div>
@@ -151,123 +154,72 @@
         <section class="projects_area">
             <div class="container">
                 <h3 class="display-4 projects_area_title text-center">Projects</h3>
-                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="col-md-10 margin-center">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card margin-center" style="width: 20rem;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card margin-center" style="width: 20rem;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card margin-center" style="width: 20rem;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="" class="project_github_link"><i class="fab fa-github"></i></a>   
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-10 margin-center">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card margin-center" style="width: 18rem;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card margin-center" style="width: 18rem;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card margin-center" style="width: 18rem;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-10 margin-center">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card margin-center" style="width: 18rem;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card margin-center" style="width: 18rem;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card margin-center" style="width: 18rem;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="carousel-container owl-carousel">
+                    
+                    <div class="card margin-center card_custom_project">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
-                    <button class="carousel-control-prev text-left" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                        <i class="bi bi-caret-left-fill project_carousel_button"></i>
-                    </button>
-                    <button class="carousel-control-next text-right" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                        <i class="bi bi-caret-right-fill project_carousel_button"></i>
-                    </button>
+                    <div class="card margin-center card_custom_project">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="card margin-center card_custom_project">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="card margin-center card_custom_project">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="card margin-center card_custom_project">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="card margin-center card_custom_project">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="card margin-center card_custom_project">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="card margin-center card_custom_project">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="project_github_link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -277,16 +229,15 @@
             <div class="container">
                 <h3 class="display-4 domain_area_title text-center">Domain</h3>
                 <div class="row domain_area_content">
-                    <div class="col my-auto">
+                    <div class="col-lg-6 col-md-12 col-sm-12 my-auto d-none d-md-block">
                         <div class="row">
                             <div class="col card-col">
-                                <div class="card" style="width: 40%;">
+                                <div class="card" style="width: 30%;">
                                     <div class="card-body">
-                                        <h5 class="card-title domain-title">Web Development</h5>
+                                        <h5 class="card-title domain-title">Web Dev.</h5>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="row">
                             <div class="col card-col">
@@ -321,7 +272,50 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-block d-md-none small_screen_domain">
+                        <div class="row">
+                            <div class="col card-col">
+                                <div class="card" style="width: 97%;">
+                                    <div class="card-body">
+                                        <h5 class="card-title domain-title">Web Dev.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col card-col">
+                                <div class="card" style="width: 97%;">
+                                    <div class="card-body">
+                                        <h5 class="card-title domain-title">Web Design</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col card-col">
+                                <div class="card margin-center" style="width: 97%;">
+                                    <div class="card-body">
+                                        <h5 class="card-title domain-title">Automation</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col card-col">
+                                <div class="card margin-center" style="width: 97%;">
+                                    <div class="card-body">
+                                        <h5 class="card-title domain-title">Finance</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="row">
+                            <div class="col card-col card_col_1">
+                                <div class="card margin-center" style="width: 100%;">
+                                    <div class="card-body">
+                                        <h5 class="card-title domain-title">Machine Learning</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <img src="./img/vec_sep_32_040-removebg-preview.png" alt="" class="domain_img mx-auto d-block">
                     </div>
                 </div>
@@ -330,19 +324,42 @@
         <!-- End Domain Area -->
         <!-- Start Contact Form-->
         <section class="contact_area">
-            <div class="container">
+            <div class="container form_responsiveness_lg_md">
                 <div class="contact_area_header_section">
                     <h3 class="display-4 contact_area_title">Say Hello.</h3><span class="contact_area_subtitle">Feel free to drop an email anytime.</span>
                 </div>
                 
-                <div class="contact_area_body">
-                    <div class="row w-50">
-                        <div class="col contact_col_specific"><input type="text" id="fname" name="fname" class="contact_text" placeholder="Name" autocomplete="false"></div>
-                        <div class="col contact_col"><input type="text" id="fname" name="fname" class="contact_text" placeholder="Email Address"></div>
+                <div class="contact_area_body form_responsiveness_lg_md d-none d-sm-block">
+                    <div class="row">
+                        <div class="col contact_col_specific">
+                            <input type="text" id="fname" name="fname" class="contact_text" placeholder="Name" autocomplete="false">
+                        </div>
+                        <div class="col contact_col">
+                            <input type="text" id="fname" name="fname" class="contact_text" placeholder="Email Address">
+                        </div>
                     </div>
-                    <div class="row w-50"><input type="text" id="fname" name="fname" class="contact_text" placeholder="Message subject"></div>
-                    <div class="row w-50"><input type="text" id="fname" name="fname" class="contact_text" placeholder="Message body"></div>
-                    <button type="button" class="btn contact_button">Base class</button>
+                    <div class="row row_custom_class_contact_form_small_devices">
+                        <input type="text" id="fname" name="fname" class="contact_text" placeholder="Message subject">
+                    </div>
+                    <div class="row row_custom_class_contact_form_small_devices">
+                        <input type="text" id="fname" name="fname" class="contact_text" placeholder="Message body">
+                    </div>
+                    <button type="button" class="btn contact_button">Send</button>
+                </div>
+                <div class="contact_area_body form_responsiveness_sm d-block d-sm-none">
+                    <div class="row">
+                        <input type="text" id="fname" name="fname" class="contact_text" placeholder="Name" autocomplete="false">
+                    </div>
+                    <div class="row">
+                        <input type="text" id="fname" name="fname" class="contact_text" placeholder="Email Address">
+                    </div>
+                    <div class="row">
+                        <input type="text" id="fname" name="fname" class="contact_text" placeholder="Message subject">
+                    </div>
+                    <div class="row">
+                        <input type="text" id="fname" name="fname" class="contact_text" placeholder="Message body">
+                    </div>
+                    <button type="button" class="btn contact_button">Send</button>
                 </div>
             </div>
         </section>
@@ -366,7 +383,12 @@
             </div>
         </footer>
         <!-- End Footer Area -->
+        <!--Owl Carousel JS CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <!-- Bootstrap JS CDN -->   
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!--Custom JS-->
+        <script src="index.js"></script>
     </body>
 </html>
